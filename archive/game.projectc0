@@ -1,6 +1,6 @@
 [project]
 title = Tapper
-version = 1.0
+version = 1.00001
 write_log = 0
 compress_archive = 1
 publisher = unnamed
@@ -12,7 +12,7 @@ width = 640
 height = 1136
 high_dpi = 0
 samples = 0
-fullscreen = 0
+fullscreen = 1
 update_frequency = 0
 swap_interval = 1
 vsync = 1
@@ -174,9 +174,9 @@ archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
-show_fullscreen_button = 1
-show_made_with_defold = 1
-show_console_banner = 1
+show_fullscreen_button = 0
+show_made_with_defold = 0
+show_console_banner = 0
 scale_mode = downscale_fit
 
 [particle_fx]
