@@ -1,15 +1,15 @@
 [project]
-title = T-Fling
+title = Tapper
 version = 1.0
 write_log = 0
 compress_archive = 1
 publisher = unnamed
 developer = unnamed
-title_as_file_name = TFling
+title_as_file_name = Tapper
 
 [display]
-width = 1136
-height = 640
+width = 640
+height = 1136
 high_dpi = 0
 samples = 0
 fullscreen = 0
