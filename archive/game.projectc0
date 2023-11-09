@@ -1,18 +1,18 @@
 [project]
-title = Tapper
-version = 1.00001
+title = Clicker
+version = 1.0
 write_log = 0
 compress_archive = 1
 publisher = unnamed
 developer = unnamed
-title_as_file_name = Tapper
+title_as_file_name = Clicker
 
 [display]
-width = 640
-height = 1136
+width = 960
+height = 640
 high_dpi = 0
 samples = 0
-fullscreen = 1
+fullscreen = 0
 update_frequency = 0
 swap_interval = 1
 vsync = 1
@@ -30,13 +30,13 @@ clear_color_alpha = 0
 type = 2D
 max_collision_object_count = 128
 use_fixed_timestep = 0
-gravity_y = -1000.0
+gravity_y = -10
 debug = 0
 debug_alpha = 0.9
 world_count = 4
 gravity_x = 0
 gravity_z = 0
-scale = 0.01
+scale = 1
 allow_dynamic_transforms = 1
 debug_scale = 30
 max_collisions = 64
@@ -83,7 +83,7 @@ repeat_delay = 0.5
 repeat_interval = 0.2
 gamepads = /builtins/input/default.gamepadsc
 game_binding = /input/game.input_bindingc
-use_accelerometer = 0
+use_accelerometer = 1
 
 [sprite]
 max_count = 128
@@ -115,31 +115,15 @@ max_count = 128
 max_count = 128
 
 [ios]
-app_icon_120x120 = /assets/app_icons/icon_120.png
-app_icon_180x180 = /assets/app_icons/icon_180.png
-app_icon_76x76 = /assets/app_icons/icon_76.png
-app_icon_152x152 = /assets/app_icons/icon_152.png
-app_icon_167x167 = /assets/app_icons/icon_167.png
-icons_asset = /assets/Assets.car
 launch_screen = /builtins/manifests/ios/LaunchScreen.storyboardc
 pre_renderered_icons = 0
-bundle_identifier = com.example.todo
+bundle_identifier = example.unnamed
 bundle_name = 
 infoplist = /builtins/manifests/ios/Info.plist
 default_language = en
 localizations = en
-app_icon_57x57 = /assets/app_icons/icon_57.png
-app_icon_114x114 = /assets/app_icons/icon_114.png
-app_icon_72x72 = /assets/app_icons/icon_72.png
-app_icon_144x144 = /assets/app_icons/icon_144.png
 
 [android]
-app_icon_36x36 = /assets/app_icons/icon_36.png
-app_icon_48x48 = /assets/app_icons/icon_48.png
-app_icon_72x72 = /assets/app_icons/icon_72.png
-app_icon_96x96 = /assets/app_icons/icon_96.png
-app_icon_144x144 = /assets/app_icons/icon_144.png
-app_icon_192x192 = /assets/app_icons/icon_192.png
 version_code = 1
 minimum_sdk_version = 19
 target_sdk_version = 33
@@ -147,7 +131,7 @@ package = com.example.todo
 gcm_sender_id = 
 manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
-input_method = HiddenInputField
+input_method = KeyEvent
 immersive_mode = 0
 display_cutout = 1
 debuggable = 0
@@ -156,7 +140,7 @@ proguard =
 [osx]
 app_icon = 
 infoplist = /builtins/manifests/osx/Info.plist
-bundle_identifier = com.example.todo
+bundle_identifier = example.unnamed
 bundle_name = 
 bundle_version = 1
 default_language = en
@@ -174,9 +158,9 @@ archive_location_prefix = archive
 archive_location_suffix = 
 engine_arguments = --verify-graphics-calls=false
 wasm_streaming = 0
-show_fullscreen_button = 0
-show_made_with_defold = 0
-show_console_banner = 0
+show_fullscreen_button = 1
+show_made_with_defold = 1
+show_console_banner = 1
 scale_mode = downscale_fit
 
 [particle_fx]
@@ -218,4 +202,7 @@ max_tile_count = 2048
 [engine]
 run_while_iconified = 0
 fixed_update_frequency = 60
+
+[webmonetization]
+payment_pointer = YOUR_PAYMENT_POINTER
 
