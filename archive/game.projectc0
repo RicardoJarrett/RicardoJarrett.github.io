@@ -1,11 +1,11 @@
 [project]
-title = Clicker
+title = chuchu_test
 version = 1.0
 write_log = 0
 compress_archive = 1
 publisher = unnamed
 developer = unnamed
-title_as_file_name = Clicker
+title_as_file_name = chuchu_test
 
 [display]
 width = 960
@@ -100,6 +100,7 @@ max_count = 128
 max_count = 64
 max_particlefx_count = 64
 max_particle_count = 1024
+max_animation_count = 1024
 
 [collection]
 max_instances = 1024
@@ -131,7 +132,7 @@ package = com.example.todo
 gcm_sender_id = 
 manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
-input_method = KeyEvent
+input_method = HiddenInputField
 immersive_mode = 0
 display_cutout = 1
 debuggable = 0
@@ -202,7 +203,4 @@ max_tile_count = 2048
 [engine]
 run_while_iconified = 0
 fixed_update_frequency = 60
-
-[webmonetization]
-payment_pointer = YOUR_PAYMENT_POINTER
 
